@@ -1,0 +1,104 @@
+.receipt-container {
+  width: 550px;
+  font-family: Arial, sans-serif;
+  padding: 16px;
+  margin: auto;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.receipt-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.receipt-info {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.receipt-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 12px;
+  table-layout: fixed;
+}
+
+.receipt-table th,
+.receipt-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 8px;
+  font-size: 13px;
+  word-wrap: break-word;
+}
+
+.receipt-table th:nth-child(1),
+.receipt-table td:nth-child(1) {
+  width: 45%; /* Description */
+  text-align: left;
+}
+
+.receipt-table th:nth-child(2),
+.receipt-table td:nth-child(2) {
+  width: 20%; /* Price */
+  text-align: right;
+}
+
+.receipt-table th:nth-child(3),
+.receipt-table td:nth-child(3) {
+  width: 15%; /* Quantity */
+  text-align: center;
+}
+
+.receipt-table th:nth-child(4),
+.receipt-table td:nth-child(4) {
+  width: 20%; /* Total */
+  text-align: right;
+}
+
+.receipt-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.receipt-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.fbr-logo {
+  height: 50px;
+}
+
+.receipt-footer-center {
+  text-align: center;
+  flex: 1;
+  margin: 0 20px;
+}
+
+.barcode {
+  margin: 10px 0;
+}
+
+.text-size {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
